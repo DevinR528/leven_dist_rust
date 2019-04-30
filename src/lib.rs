@@ -30,6 +30,8 @@ impl Show for Narray {
 /// # Examples
 /// basic usage:
 /// ```
+/// use leven_dist::lev_distance;
+/// 
 /// let dist = lev_distance("kitten", "sitting");
 /// assert_eq!(dist, 3)
 /// ``` 
