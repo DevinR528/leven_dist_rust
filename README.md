@@ -2,7 +2,7 @@
 > Wasm levenshtein distance implementation
 
 [![Build Status](https://travis-ci.com/DevinR528/leven_dist_rust.svg?branch=master)](https://travis-ci.com/DevinR528/leven_dist_rust)
-[![npm package][https://img.shields.io/npm/v/npm-package.png?style=flat-square]][https://www.npmjs.org/package/npm-package]
+[![npm package][https://img.shields.io/npm/v/npm-package.png?style=flat-square]](https://www.npmjs.com/package/leven_dist)
 
 Simple function written in rust compiled to wasm for use in .js.
 
