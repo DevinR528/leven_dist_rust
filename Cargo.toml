@@ -1,0 +1,8 @@
+[package]
+name = "leven_dist"
+version = "0.1.0"
+authors = ["Devin Ragotzy <dragotzy7460@mail.kvcc.edu>"]
+edition = "2018"
+
+[dependencies]
+ndarray = "0.12.1"
