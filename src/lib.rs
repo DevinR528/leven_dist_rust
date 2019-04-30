@@ -1,3 +1,4 @@
+use wasm_bindgen::prelude::*;
 use std::cmp;
 
 type Narray = Vec<Vec<usize>>;
@@ -35,6 +36,7 @@ impl Show for Narray {
 /// let dist = lev_distance("kitten", "sitting");
 /// assert_eq!(dist, 3)
 /// ``` 
+#[wasm_bindgen]
 pub fn lev_distance(a: &str, b: &str) -> usize {
     if a.is_empty() {
         return a.chars().count();
