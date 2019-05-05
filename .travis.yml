@@ -7,8 +7,8 @@ matrix:
   allow_failures:
     - rust: nightly
 before_script:
-  - rustup component add rustfmt-preview
+  - rustup component add rustfmt
 script:
-  - cargo test --verbose --features serde
-  - cargo doc --no-deps --features serde
-  - cargo fmt --all -- --check
+  - cargo test
+  - cargo doc
+  - cargo fmt
